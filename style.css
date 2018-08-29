@@ -5078,6 +5078,7 @@ text-decoration: underline;
 .post-body.entry-content.float-container {
     font-family: 'Maitree', serif;
     font-size: 2rem;
+    padding: 10px;
 }
 .snippet-item.r-snippetized {
     font-family: 'Maitree', serif;
