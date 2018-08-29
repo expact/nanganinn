@@ -5091,3 +5091,15 @@ h3.post-title {
     font-family: 'Maitree', serif;
     font-size: 3rem;
 }
+a.comment-link {
+font-family: 'Maitree', serif;
+    font-size: 1.6rem;
+}
+.jump-link.flat-button a {
+font-family: 'Maitree', serif;
+    font-size: 1.6rem;
+}
+time.published {
+    font-family: 'Maitree', serif;
+    font-size: 1.5rem;
+}
