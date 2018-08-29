@@ -5079,3 +5079,15 @@ text-decoration: underline;
     font-family: 'Maitree', serif;
     font-size: 2rem;
 }
+.snippet-item.r-snippetized {
+    font-family: 'Maitree', serif;
+    font-size: 2rem;
+}
+h1.post-title.entry-title {
+    font-family: 'Maitree', serif;
+    font-size: 3rem;
+}
+h3.post-title {
+    font-family: 'Maitree', serif;
+    font-size: 3rem;
+}
