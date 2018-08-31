@@ -5110,3 +5110,25 @@ font-family: 'Maitree', serif;
 div.post-body.entry-content.float-container {
     text-align: justify;
 }
+.has_transition_1500{-webkit-transition:-webkit-transform 1500ms cubic-bezier(0.190, 1.000, 0.220, 1.000),opacity 1500ms cubic-bezier(0.190, 1.000, 0.220, 1.000);transition:transform 1500ms cubic-bezier(0.190, 1.000, 0.220, 1.000),opacity 1500ms cubic-bezier(0.190, 1.000, 0.220, 1.000);will-change:transform, opacity;backface-visibility:hidden;-webkit-backface-visibility:hidden;}
+.open_gallery{flex:none;width:140px;height:140px;background-color:#FFF;cursor:pointer;margin-left:auto;margin-right:auto;position:relative;top:-40px;display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;align-items:center;z-index:1;}
+.open_gallery p{font-size:16px;font-weight:500;letter-spacing:1px;margin:0 auto;text-transform:uppercase;}
+.open_gallery img{margin-bottom:20px;width:60px;}
+.open_gallery::after{content:"";position:absolute;background:url(https://3.bp.blogspot.com/-dpCSlIn4Oes/W4kVh2BTJtI/AAAAAAAAFFo/KpwC1fHktCYbnO_b37EGspE2mjWNnL2eQCLcBGAs/s1600/open_gallery_shadow.png) no-repeat center center;background-size:100%;bottom:-38px;width:100%;height:45px;z-index:-1;left:0;}
+.open_gallery .borders > div{background:#000;}
+#position .open_gallery{top:0;margin-top:40px;}
+#position .open_gallery{position:relative;left:0;margin-left:0;}
+.top{height:auto;position:relative;}
+.borders > div{position:absolute;background:#FFF;}
+.borders .top{top:0;left:0;width:100%;height:7px;transform-origin:left;}
+.borders .bottom{bottom:0;left:0;width:100%;height:7px;transform-origin:right;}
+.borders .left{bottom:0;left:0;width:7px;height:100%;transform-origin:bottom;}
+.borders .right{bottom:0;right:0;width:7px;height:100%;transform-origin:top;}
+@media screen and (min-width: 75em){
+.open_gallery{width:186px;height:186px;}
+.open_gallery::after{bottom:-45px;}
+.open_gallery img{width:auto;}
+}
+@media screen and (min-width: 90.1em){
+.open_gallery{position:absolute;top:50%;left:50%;margin-left:-93px;margin-top:-93px;}
+}
