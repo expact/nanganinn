@@ -5011,7 +5011,7 @@ input#datepickerIn:focus,input#datepickerOut:focus{max-width:100%;width:280px;}
 .body-book-but{/*height:100%;*/width:100%;display:flex;align-items:center;justify-content:center;position:relative;overflow: hidden;}
 .body-book-but #wrapper-book-but{display:inline-block;padding:0 10px;overflow:hidden;background:#B08E23;cursor:pointer;}
 .body-book-but #wrapper-book-but .button-now{font-size:24px;color:#fff;position:relative;width:auto;height:100%;padding:10px 55px;z-index:1;}
-.button-now img{position:absolute;top:40px;right:-3px;image-rendering:auto;image-rendering:crisp-edges;image-rendering:pixelated;}
+.button-now img{position:absolute;top:24px;right:27px;image-rendering:auto;image-rendering:crisp-edges;image-rendering:pixelated;}
 .body-book-but #wrapper-book-but .button-now:after{content:'';position:absolute;width:calc(100% + 50px);height:calc(100% + 20px);left:50%;top:50%;transform:translateX(-50%) translateY(-50%);opacity:0;transition:0.5s;background:repeating-linear-gradient(45deg, #fff, #fff 10px, #B08E23 10px, #B08E23 11px);background-position:0px 0px;background-repeat:repeat-x;animation:partyTime 40s linear infinite;}
 .body-book-but #wrapper-book-but .button-now:before{content:'Welcome!';position:absolute;left:50%;top:50%;transform:translateX(-50%) translateY(-50%);color:#B08E23;z-index:-1;opacity:0;transition:0.5s;background:#fff;width:100%;}
 .btn-hovermenu-close{color:#B08E23;cursor:pointer;font-size:16px;font-weight:400;line-height:30px;max-width:140px;position:relative;text-decoration:none;text-transform:uppercase;width:100%;}
