@@ -4994,7 +4994,7 @@ input#datepickerIn:focus,input#datepickerOut:focus{max-width:100%;width:280px;}
 .label-date{width:100%;display:block;letter-spacing:8px;padding-top:30px;text-align:center;margin:auto;}
 .label-text{color:#B08E23;cursor:text;font-size:20px;line-height:5px;text-transform:uppercase;transform:translateY(-34px);transition:all 0.3s;}
 #formbook-click2{position:relative;top:20px;}
-.formbook{max-width:360px;background:#fff;text-align:center;padding:20px 0px 30px;position:fixed;left: 0px; right: 0px; top: 60px;margin:auto;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px;box-shadow:0 1px 6px rgba(0,0,0,.06), 0 2px 32px rgba(0,0,0,.16);z-index:0;}
+.formbook{max-width:360px;background:#fff;text-align:center;padding:20px 0px 30px;position:fixed;left: 0px; right: 0px; top: 60px;margin:auto;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px;box-shadow:0 1px 6px rgba(0,0,0,.06), 0 2px 32px rgba(0,0,0,.16);z-index:12;}
 .cc-selector{margin: 0 0 0 30px;}
 .cc-selector input{margin:0;padding:0;-webkit-appearance:none;-moz-appearance:none;appearance:none;position: absolute;}
 .agoda{background-image:url(https://2.bp.blogspot.com/-HCSFXfghlfU/WpWZETI4XEI/AAAAAAAAETs/bcZJZ8sfeX8lfAQza3b6qmJ0BY8tm2l4ACLcBGAs/s110/agoda.png);}
