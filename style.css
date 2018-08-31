@@ -2395,7 +2395,7 @@ form label {
     text-align: left;
     color: #5E5E5E;
     font-size: 18px;
-    float: left;
+  /*  float: left; */
 }
 
 form label.larger {
@@ -4991,11 +4991,11 @@ input[type="radio"]{visibility:hidden;}
 input#datepickerIn,input#datepickerOut{background-color:#FFF;border:0;border-bottom:7px solid #B08E23;color:#FFF;font-size:36px;letter-spacing:-1px;outline:0;padding:5px 20px;text-align:center;transition:all 0.3s;width:100%;height: 40px;}
 input#datepickerIn:focus,input#datepickerOut:focus{max-width:100%;width:280px;}
 #labelIn:after,#labelOut:after{content:url("https://2.bp.blogspot.com/-i_o4mnT_T9U/WpYWDI11k9I/AAAAAAAAEUc/_Kex63WnjvUkIWQY_hS-GODscXyeTKjigCLcBGAs/s1600/002-time.png");position:relative;right:-10px;top:2px;}
-.label-date{width:100%;display:block;letter-spacing:8px;padding-top:30px;text-align:center;margin:auto;}
+.label-date{width:80%;display:block;letter-spacing:8px;/*padding-top:30px;*/text-align:center;margin:10px auto;}
 .label-text{color:#B08E23;cursor:text;font-size:20px;line-height:5px;text-transform:uppercase;transform:translateY(-34px);transition:all 0.3s;}
 #formbook-click2{position:relative;top:20px;}
 .formbook{max-width:360px;background:#fff;text-align:center;padding:20px 0px 30px;position:fixed;left: 0px; right: 0px; top: 60px;margin:auto;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px;box-shadow:0 1px 6px rgba(0,0,0,.06), 0 2px 32px rgba(0,0,0,.16);z-index:12;}
-.cc-selector{margin: 0 0 0 30px;}
+.cc-selector{margin: 0 0 0 8px;}
 .cc-selector input{margin:0;padding:0;-webkit-appearance:none;-moz-appearance:none;appearance:none;position: absolute;}
 .agoda{background-image:url(https://2.bp.blogspot.com/-HCSFXfghlfU/WpWZETI4XEI/AAAAAAAAETs/bcZJZ8sfeX8lfAQza3b6qmJ0BY8tm2l4ACLcBGAs/s110/agoda.png);}
 .booking{background-image:url(https://1.bp.blogspot.com/-CRqABKgP3s4/WncaY5bNQ5I/AAAAAAAAEGM/vWRmtEQMSCgMqZ4NfihPZ_BJaMh3VtAqQCLcBGAs/s110/booking.png);}
@@ -5074,11 +5074,10 @@ background-color: #fff;
 .post-body.entry-content.float-container a {
 text-decoration: underline;
 }
-
 .post-body.entry-content.float-container {
     font-family: 'Maitree', serif;
     font-size: 2rem;
-    padding: 10px;
+	padding: 10px;
 }
 .snippet-item.r-snippetized {
     font-family: 'Maitree', serif;
