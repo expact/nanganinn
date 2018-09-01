@@ -780,7 +780,7 @@ h3 + .line_02 {
 .open_gallery::after {
 	content: "";
 	position: absolute;
-	background: url(/style/images/open_gallery_shadow.png) no-repeat center center;
+     /*	background: url(/style/images/open_gallery_shadow.png) no-repeat center center;  */
 	background-size: 100%;
 	bottom: -38px;
     width: 100%;
