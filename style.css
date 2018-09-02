@@ -1449,7 +1449,7 @@ ul.menu a {
 	height: 100%;
 }
 .logo_block {
-	width: 260px;
+	max-width: 260px;
 	height: 146px;
 	margin: auto;
 }
